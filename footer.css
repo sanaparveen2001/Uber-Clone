@@ -1,0 +1,134 @@
+#footer{
+    /* border: 3px solid red; */
+    background-color: black;
+    color: #fff;
+    display: block;
+    position: relative;
+    top: -35px;
+    /* height: 1100px; */
+}
+
+#sub-foot{
+    /* border: 3px solid red; */
+    width: 76%;
+    margin: auto;
+    padding-top: 100px;
+}
+
+#sub-foot>ol{
+    /* border: 2px solid yellow; */
+    list-style: none;
+    line-height: 60px
+}
+#sub-foot>ol>li:first-child{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+#foot-mid{
+    padding-top: 50px;
+    /* border: 2px solid blue; */
+    width: 80%;
+}
+#foot-mid ol{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+#foot-mid ol ul{
+    list-style: none;
+    line-height: 36px;
+    font-size: 16px;
+    font-weight: 400;
+}
+#foot-mid ol ul li:first-child{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#foot-mid ol ul li:first-child:hover{
+    color: #fff;
+    cursor:auto;
+}
+
+#foot-mid li{
+    font-size: 14px;
+}
+
+#foot-mid ol ul li:hover{
+    color: #AFAFAF;
+    cursor: pointer;
+}
+
+#foot-bottom{
+    width: 98%;
+    padding-top: 72px;
+    /* border: 2px solid orangered; */
+    display: flex;
+    justify-content: space-between;
+}
+
+#foot-bottom ol{
+    /* border: 2px solid; */
+    list-style: none;
+    display: inline-flex;
+    width: 40%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+i{
+    font-size: 20px;
+}
+
+#foot-bottom ul{
+    list-style: none;
+    /* border: 2px solid cyan; */
+    display: inline-flex;
+    width: 200px;
+    justify-content: space-between;
+}
+
+#language{
+    display: inline-flex;
+    /* border: 2px solid red;  */
+    justify-content: space-between;
+    width: 75px;
+    align-items: center;
+}
+#language span{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#location{
+    display: inline-flex;
+    /* border: 2px solid red;  */
+    justify-content: space-between;
+    width: 100px;
+    align-items: center;
+}
+#location span{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#foot-last{
+    padding-top: 70px;
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 400;
+    padding-bottom: 70px;
+    color: #AFAFAF;
+}
+
+#foot-last ul{
+    list-style: none;
+    /* border: 2px solid red; */
+    display: inline-flex;
+    width: 200px;
+    justify-content: space-between;
+}
